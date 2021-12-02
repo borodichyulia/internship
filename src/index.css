@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.container{
+  width: 50em;
+  height: 20em;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.counter{
+  width: 35%;
+  height: 20%;
+  border: solid 2px black;
+  margin-top: 10px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10pt;
+}
+
+.groupButton{
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin-top: 20px;
+}
+
+.counterButton{
+  width: 3em;
+  height: 3em;
+  border-radius: 16px;
+  background-color: white;
+  border: solid 2px black;
+  font: 14pt bold;
+}
+
+.groupButtonMain{
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.counterButtonMain{
+  width: 8em;
+  height: 3em;
+  border-radius: 16px;
+  background-color: white;
+  border: solid 5px black;
+  font: 14pt bold;
+}
+
+.containerCounter{
+  width: 20em;
+  height: 15em;
+  border: solid 3px black;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.mainContainerCounter{
+  display: flex;
+  flex-wrap: wrap;
+}
